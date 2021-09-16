@@ -1,0 +1,80 @@
+/*--All--*/
+*{
+  margin: 0;
+}
+
+button{
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 18;
+  font-weight: bold;
+  color: #fff;
+}
+
+.btn_done{
+  background-image: linear-gradient(to bottom right, red, blue);
+}
+
+.App{
+  display: flex;
+}
+
+/*---------------------------------------------FILTER--*/
+
+.filter{
+  max-width:fit-content;
+  overflow: hidden;
+  max-height: 28px;
+  padding: 5px 10px;
+  border: 2px solid;
+  border-radius: 5px;
+  margin: 5px 20px;
+  transition: 1s;
+}
+
+.scroll{
+  margin: 10px 0;
+  overflow: scroll;
+  max-height: 300px;
+}
+
+.mark{
+  cursor: pointer;
+  position: absolute;
+  margin-top: -27px;
+  margin-left: 110px;
+  transform: rotate(-90deg);
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.element{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.element p {
+  margin-right: 5px;
+}
+
+.item{
+  display: flex;
+  border-radius: 5px;
+  border: 2px solid;
+  margin: 5px;
+  width: fit-content;
+  padding: 10px;
+}
+
+.item h3 {
+  margin: 0 5px;
+}
